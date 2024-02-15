@@ -1,0 +1,83 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 50px;
+}
+.helo{
+    border-radius: 30px;
+}
+.hello{
+    display: flex;
+    align-items: center;
+    
+
+}
+.username{
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    width: 20rem;
+    height: 2rem;
+}
+.email{
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    width: 20rem;
+    height: 2rem;
+}
+.message{
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    width: 20rem;
+    height: 7rem;
+    
+}
+.send{
+    display: flex;
+    margin-left: 8rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: darkblue;
+    color: white;
+
+}
+.cont{
+    display: flex;
+    position: absolute;
+    padding: 0px 0px 400px 70px;
+}
+@media screen and (max-width:767px) {
+        .helo{
+            display: flex;
+            height: 250px;
+            width: 350px;
+            position: absolute;
+            left: 50px;
+        }
+        .hello{
+            display: flex;
+            margin: 330px 0px 0px 40px;
+            
+        }
+        .contact{
+            display: flex;
+            position: absolute;
+            padding-top: 2px;
+        }
+        .send{
+           margin-left: 7rem;
+           position: absolute;
+        }
+}

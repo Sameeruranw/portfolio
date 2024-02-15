@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  height: 90px;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: darkblue;
+  
+  
+}
+
+
+ul {
+  display: flex;
+  gap: 3rem;
+}
+.topnav {
+  display: flex;
+  padding-right: 30px;
+}
+
+@media screen and (max-width:767px) {
+    a{
+      font-size: small;
+      
+    }
+    
+}

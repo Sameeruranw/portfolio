@@ -1,0 +1,61 @@
+.mainbar{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.fbar{
+    display: flex;
+    background-color: darkcyan;
+    height: 30rem;
+    width: 40rem;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    position: relative;
+    
+
+}
+.ecommerce{
+    display: flex;
+    width: 30rem;
+    height: 20rem;
+    position: absolute;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+.note{
+    position:absolute;
+    margin-top: 24rem;
+    
+}
+.demo{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30rem;
+    border: none;
+    width: 10rem;
+    margin-top: 26rem;
+    font-size: large;
+    cursor: pointer;
+    position: absolute;
+    background-color: darkblue;
+
+}
+
+.note2{
+    position:absolute;
+    margin-top: 24rem;
+    padding-left: 50px;
+}
+.source{
+    display: flex;
+    position: absolute;
+    margin-top: 28rem;
+    font-size: larger;
+    padding-left: 10px;
+}

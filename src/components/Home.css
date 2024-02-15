@@ -1,0 +1,88 @@
+.contain{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.left{
+    display: block;
+    padding-top: 100px;
+}
+.pic{
+    display: flex;
+    border-radius: 40px;
+}
+.info{
+    color: darkblue;
+}
+.hel{
+    background-color: darkblue;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.name{
+    display: flex;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.info{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.detail{
+    display:block;
+    margin-top: 20px;
+    
+}
+.inbox{
+    position: absolute;
+    padding-left: 40px;
+}
+.links{
+    display: flex;
+    padding-top: 35px;
+    gap: 50px;
+}
+
+@media screen and (max-width:767px) {
+    .pic{
+        display: flex;
+        border-radius: 40px;
+        height: 20rem;
+        width: 15rem;
+        margin-right:10px;
+        position:relative ;
+
+    }
+    .contain{
+        display: flex;
+        margin-top: 30px;
+    }
+    .left{
+        display: block;
+        position: absolute;
+        padding: 18rem 0rem 0rem 0rem;
+        font-size: small;
+ 
+    }
+    .hel{
+       
+        width: 70px;
+        border-radius: 10px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        padding-right: 30px;
+    }
+    .name{
+        display: flex;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+
+}
